@@ -1,0 +1,220 @@
+/* Header Section  */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-main {
+    background-image: url(/images/banner/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-area{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.header-text {
+    text-align: right;
+    width: 400px;
+    justify-content: end;
+    align-items: center;
+    padding: 200px 50px;
+    margin: 0 200px;
+
+}
+
+.header-text h1{
+    margin-top: 10px;
+}
+
+.header-text p{
+    margin-top: 10px;
+}
+.header-text button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(247 181 61 / 87%);
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* My life section  */
+.my-life-main{
+    margin: 20px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.my-life-text{
+    width: 400px;
+    margin-left: 50px ;
+    margin-top: 100px;
+}
+.my-life-text h2{
+    margin-top: 100px;
+}
+
+
+.my-life-text p{
+    margin: 20px 0px;
+}
+.point-list{
+ margin-left: 20px;
+}
+.point-list ul li{
+    list-style-type: square;
+    padding: 3px 0px;
+
+}
+
+/* My plan section  */
+.my-plan{
+    margin: 50px 200px;
+    text-align: center;
+    
+}
+.my-plan h2{
+    margin: 40px 0px;
+}
+.my-plan-list{
+    display: flex;
+    gap: 235px;
+    align-items: center;
+}
+
+/* skill overview section  */
+.skill-overview{
+    margin: 50px 200px;
+    text-align: center;
+}
+.front-end-developer i{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(255, 0, 111);
+}
+.back-end-developer i{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(255, 0, 111);
+}
+.others-skills i{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(255, 0, 111);
+}
+
+.skill-main{
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.front-end-developer h3{
+    margin: 15px 0;
+}
+.back-end-developer h3{
+    margin: 15px 0;
+}
+.others-skills h3{
+    margin: 15px 0;
+}
+
+
+.skill-main > div{
+    border: 4px solid rgb(245, 135, 18);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: left;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.skill-main ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.skill-main h3{
+    text-align: center;
+}
+
+/* call now section  */
+
+.call-now-main{
+    margin: 50px 200px;
+    height: 300px;
+    background-image: url(./images/watch.png);
+    background-blend-mode: overlay;
+    background-color: rgba(236, 175, 9, 0.148);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+.call-now-text h2{
+    color: white;
+}
+.call-now-text span{
+    color: red;
+}
+.call-now-text button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(247 181 61 / 87%);
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* footer section  */
+.footer-section{
+    background-color: black;
+    color: white;
+}
+.footer-main{
+    margin: 0 200px;
+    display: flex;
+    padding: 100px 0px;
+}
+
+.footer-left{
+    padding-right: 500px;
+}
+.footer-left p{
+    margin: 20px 0px;
+}
+
+.social-media-icon img{
+    margin-right: 20px;
+}
+.footer-right button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(247 181 61 / 87%);
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer-right input{
+    margin:10px 0px 6px 0px;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
